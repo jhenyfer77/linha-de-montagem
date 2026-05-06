@@ -1,10 +1,10 @@
 name: Minha Primeira Linha de Montagem 
 on: 
-    push: 
-      branches: [ main ] 
+ push: 
+    branches: [ main ] 
         
-     jobs:
-        build-e-teste:
+jobs:
+    build-e-teste:
         runs-on: ubuntu-latest 
         
         steps:
